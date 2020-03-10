@@ -1,0 +1,30 @@
+.Editor{
+    background-color: #323330;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.TabList{
+    width: 100%;
+    height: 28px;
+    display: flex;
+}
+.TabList div:first-child{
+    border-top-left-radius: 5px;
+}
+@media(max-width:730px) {
+    .Editor{
+        background-color: #323330;
+        width: 100%;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+    .TabList{
+        width: 100%;
+        height: 22px;
+        display: flex;
+    }
+    .TabList div:first-child{
+        border-top-left-radius: 5px;
+    }
+}

@@ -1,0 +1,37 @@
+.Normal{
+    color: #74bbf5;
+}
+.String{
+    color: #ce9178;
+}
+.Type2{
+    color:#b37aae !important;
+}
+.Jsx{
+    color: #c0b9b9;
+}
+.JsxCustom{
+    color: #3ec4b0;
+}
+.Variable{
+    color: #41739c;
+}
+.Function{
+    color: #dcdcaa;
+}
+.Number{
+    color: #b5cea8;
+}
+.Constant{
+    color: beige;
+}
+.JsxText{
+    color:#d4d4bd;
+}
+.Comment{
+    color: #6a9955;
+}
+span{
+    padding: 0;
+    margin: 0;
+}

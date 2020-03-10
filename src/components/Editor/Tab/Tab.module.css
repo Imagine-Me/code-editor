@@ -1,0 +1,43 @@
+.Tab{
+    display: flex;
+    background-color: #464646;
+    height: 100%;
+    width: 120px;
+    padding:  0 5px;
+    align-content: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+    box-shadow: -1px 1px 1px rgba(87, 87, 85, 0.493);
+}
+.Tab:first-child{
+    box-shadow: none;
+}
+.LeftSide{
+    display: flex;
+}
+.TabName{
+    color: white;
+    font-size: 12px;
+    align-self: center;
+    padding-left: 3px;
+}
+.active{
+    background-color: #3e3838;
+}
+@media only screen and (min-width:731px) and (max-width: 1024px){
+
+    .TabName{
+        font-size: 10px;
+    }
+    .Tab{
+        width: 100px;
+    }
+}
+@media(max-width:730px){
+    .Tab{
+        width: 80px;
+    }
+    .TabName{
+        font-size: 7px;
+    }
+}
